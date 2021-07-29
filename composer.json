@@ -1,7 +1,7 @@
 {
     "name": "sumvo/laravel-admin",
-    "description": "admin laravel 5.8",
-    "type": "project",
+    "description": "laravel admin 5.8",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
