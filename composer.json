@@ -1,0 +1,13 @@
+{
+    "name": "sumvo/laravel-admin",
+    "description": "admin laravel 5.8",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sumviit",
+            "email": "vansum94@gmail.com"
+        }
+    ],
+    "require": {}
+}
