@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Commands;
+namespace Sumvo\LaravelAdmin\Commands;
 
 use Illuminate\Foundation\Console\ModelMakeCommand;
 use Symfony\Component\Console\Input\InputOption;

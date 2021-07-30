@@ -1,13 +1,13 @@
 <?php
 
-namespace TCG\Voyager\Database;
+namespace Sumvo\LaravelAdmin\Database;
 
 use Doctrine\DBAL\Schema\Column;
 use Doctrine\DBAL\Schema\SchemaException;
 use Doctrine\DBAL\Schema\TableDiff;
-use TCG\Voyager\Database\Schema\SchemaManager;
-use TCG\Voyager\Database\Schema\Table;
-use TCG\Voyager\Database\Types\Type;
+use Sumvo\LaravelAdmin\Database\Schema\SchemaManager;
+use Sumvo\LaravelAdmin\Database\Schema\Table;
+use Sumvo\LaravelAdmin\Database\Types\Type;
 
 class DatabaseUpdater
 {

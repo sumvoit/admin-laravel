@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Postgresql;
+namespace Sumvo\LaravelAdmin\Database\Types\Postgresql;
 
-use TCG\Voyager\Database\Types\Common\VarCharType;
+use Sumvo\LaravelAdmin\Database\Types\Common\VarCharType;
 
 class CharacterVaryingType extends VarCharType
 {

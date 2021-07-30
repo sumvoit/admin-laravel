@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

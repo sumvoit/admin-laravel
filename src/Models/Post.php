@@ -1,13 +1,13 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Traits\Resizable;
-use TCG\Voyager\Traits\Translatable;
+use Sumvo\LaravelAdmin\Facades\Voyager;
+use Sumvo\LaravelAdmin\Traits\Resizable;
+use Sumvo\LaravelAdmin\Traits\Translatable;
 
 class Post extends Model
 {

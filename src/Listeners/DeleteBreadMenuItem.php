@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Listeners;
+namespace Sumvo\LaravelAdmin\Listeners;
 
-use TCG\Voyager\Events\BreadDeleted;
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Events\BreadDeleted;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 class DeleteBreadMenuItem
 {

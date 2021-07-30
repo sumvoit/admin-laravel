@@ -1,13 +1,13 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
-use TCG\Voyager\Models\DataRow;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\Page;
+use Sumvo\LaravelAdmin\Models\DataRow;
+use Sumvo\LaravelAdmin\Models\DataType;
+use Sumvo\LaravelAdmin\Models\Page;
 
 class BreadMediaUploadTest extends TestCase
 {

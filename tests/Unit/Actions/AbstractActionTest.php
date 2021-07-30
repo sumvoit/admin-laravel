@@ -1,25 +1,25 @@
 <?php
 
-namespace TCG\Voyager\Tests\Unit\Actions;
+namespace Sumvo\LaravelAdmin\Tests\Unit\Actions;
 
-use TCG\Voyager\Actions\AbstractAction;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Models\User;
-use TCG\Voyager\Tests\TestCase;
+use Sumvo\LaravelAdmin\Actions\AbstractAction;
+use Sumvo\LaravelAdmin\Facades\Voyager;
+use Sumvo\LaravelAdmin\Models\User;
+use Sumvo\LaravelAdmin\Tests\TestCase;
 
 class AbstractActionTest extends TestCase
 {
     /**
      * The users DataType instance.
      *
-     * @var \TCG\Voyager\Models\DataType
+     * @var \Sumvo\LaravelAdmin\Models\DataType
      */
     protected $userDataType;
 
     /**
      * A dummy user instance.
      *
-     * @var \TCG\Voyager\Models\User
+     * @var \Sumvo\LaravelAdmin\Models\User
      */
     protected $user;
 

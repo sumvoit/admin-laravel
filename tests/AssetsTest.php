@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Support\Facades\Auth;
 

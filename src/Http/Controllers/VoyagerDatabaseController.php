@@ -1,22 +1,22 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers;
+namespace Sumvo\LaravelAdmin\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use TCG\Voyager\Database\DatabaseUpdater;
-use TCG\Voyager\Database\Schema\Column;
-use TCG\Voyager\Database\Schema\Identifier;
-use TCG\Voyager\Database\Schema\SchemaManager;
-use TCG\Voyager\Database\Schema\Table;
-use TCG\Voyager\Database\Types\Type;
-use TCG\Voyager\Events\TableAdded;
-use TCG\Voyager\Events\TableDeleted;
-use TCG\Voyager\Events\TableUpdated;
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Database\DatabaseUpdater;
+use Sumvo\LaravelAdmin\Database\Schema\Column;
+use Sumvo\LaravelAdmin\Database\Schema\Identifier;
+use Sumvo\LaravelAdmin\Database\Schema\SchemaManager;
+use Sumvo\LaravelAdmin\Database\Schema\Table;
+use Sumvo\LaravelAdmin\Database\Types\Type;
+use Sumvo\LaravelAdmin\Events\TableAdded;
+use Sumvo\LaravelAdmin\Events\TableDeleted;
+use Sumvo\LaravelAdmin\Events\TableUpdated;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 class VoyagerDatabaseController extends Controller
 {

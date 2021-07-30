@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers;
+namespace Sumvo\LaravelAdmin\Http\Controllers;
 
 use Artisan;
 use Exception;

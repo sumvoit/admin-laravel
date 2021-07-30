@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Listeners;
+namespace Sumvo\LaravelAdmin\Listeners;
 
 use Cache;
-use TCG\Voyager\Events\SettingUpdated;
+use Sumvo\LaravelAdmin\Events\SettingUpdated;
 
 class ClearCachedSettingValue
 {

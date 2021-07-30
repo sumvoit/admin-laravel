@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\Permission;
-use TCG\Voyager\Models\Role;
+use Sumvo\LaravelAdmin\Models\Permission;
+use Sumvo\LaravelAdmin\Models\Role;
 
 class PermissionRoleTableSeeder extends Seeder
 {

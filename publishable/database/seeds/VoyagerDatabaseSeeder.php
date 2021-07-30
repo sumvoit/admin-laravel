@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Traits\Seedable;
+use Sumvo\LaravelAdmin\Traits\Seedable;
 
 class VoyagerDatabaseSeeder extends Seeder
 {

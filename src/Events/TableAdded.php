@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Events;
+namespace Sumvo\LaravelAdmin\Events;
 
 use Illuminate\Queue\SerializesModels;
-use TCG\Voyager\Database\Schema\Table;
+use Sumvo\LaravelAdmin\Database\Schema\Table;
 
 class TableAdded
 {

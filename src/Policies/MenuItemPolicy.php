@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Policies;
+namespace Sumvo\LaravelAdmin\Policies;
 
-use TCG\Voyager\Contracts\User;
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Contracts\User;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 class MenuItemPolicy extends BasePolicy
 {

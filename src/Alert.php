@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager;
+namespace Sumvo\Laravel-admin;
 
-use TCG\Voyager\Alert\Components\ComponentInterface;
+use Sumvo\LaravelAdmin\Alert\Components\ComponentInterface;
 
 class Alert
 {

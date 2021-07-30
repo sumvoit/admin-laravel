@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Models\Menu;
+use Sumvo\LaravelAdmin\Models\Menu;
 
 class MenuTest extends TestCase
 {

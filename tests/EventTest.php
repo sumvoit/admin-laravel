@@ -1,26 +1,26 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Storage;
-use TCG\Voyager\Events\BreadAdded;
-use TCG\Voyager\Events\BreadDataAdded;
-use TCG\Voyager\Events\BreadDataDeleted;
-use TCG\Voyager\Events\BreadDataUpdated;
-use TCG\Voyager\Events\BreadDeleted;
-use TCG\Voyager\Events\BreadImagesDeleted;
-use TCG\Voyager\Events\BreadUpdated;
-use TCG\Voyager\Events\FileDeleted;
-use TCG\Voyager\Events\MediaFileAdded;
-use TCG\Voyager\Events\TableAdded;
-use TCG\Voyager\Events\TableDeleted;
-use TCG\Voyager\Events\TableUpdated;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\Page;
+use Sumvo\LaravelAdmin\Events\BreadAdded;
+use Sumvo\LaravelAdmin\Events\BreadDataAdded;
+use Sumvo\LaravelAdmin\Events\BreadDataDeleted;
+use Sumvo\LaravelAdmin\Events\BreadDataUpdated;
+use Sumvo\LaravelAdmin\Events\BreadDeleted;
+use Sumvo\LaravelAdmin\Events\BreadImagesDeleted;
+use Sumvo\LaravelAdmin\Events\BreadUpdated;
+use Sumvo\LaravelAdmin\Events\FileDeleted;
+use Sumvo\LaravelAdmin\Events\MediaFileAdded;
+use Sumvo\LaravelAdmin\Events\TableAdded;
+use Sumvo\LaravelAdmin\Events\TableDeleted;
+use Sumvo\LaravelAdmin\Events\TableUpdated;
+use Sumvo\LaravelAdmin\Models\DataType;
+use Sumvo\LaravelAdmin\Models\Page;
 
 class EventTest extends TestCase
 {

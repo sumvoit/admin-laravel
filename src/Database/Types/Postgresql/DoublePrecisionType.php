@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Postgresql;
+namespace Sumvo\LaravelAdmin\Database\Types\Postgresql;
 
-use TCG\Voyager\Database\Types\Common\DoubleType;
+use Sumvo\LaravelAdmin\Database\Types\Common\DoubleType;
 
 class DoublePrecisionType extends DoubleType
 {

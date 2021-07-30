@@ -1,13 +1,13 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
-use TCG\Voyager\Database\Schema\SchemaManager;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Traits\Translatable;
+use Sumvo\LaravelAdmin\Database\Schema\SchemaManager;
+use Sumvo\LaravelAdmin\Facades\Voyager;
+use Sumvo\LaravelAdmin\Traits\Translatable;
 
 class DataType extends Model
 {

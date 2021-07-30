@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Listeners;
+namespace Sumvo\LaravelAdmin\Listeners;
 
-use TCG\Voyager\Events\BreadAdded;
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Events\BreadAdded;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 class AddBreadPermission
 {

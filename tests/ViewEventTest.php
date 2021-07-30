@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 class ViewEventTest extends TestCase
 {

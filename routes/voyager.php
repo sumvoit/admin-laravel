@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Str;
-use TCG\Voyager\Events\Routing;
-use TCG\Voyager\Events\RoutingAdmin;
-use TCG\Voyager\Events\RoutingAdminAfter;
-use TCG\Voyager\Events\RoutingAfter;
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Events\Routing;
+use Sumvo\LaravelAdmin\Events\RoutingAdmin;
+use Sumvo\LaravelAdmin\Events\RoutingAdminAfter;
+use Sumvo\LaravelAdmin\Events\RoutingAfter;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 /*
 |--------------------------------------------------------------------------

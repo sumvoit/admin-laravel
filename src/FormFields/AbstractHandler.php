@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\FormFields;
+namespace Sumvo\LaravelAdmin\FormFields;
 
 use Illuminate\Support\Str;
-use TCG\Voyager\Traits\Renderable;
+use Sumvo\LaravelAdmin\Traits\Renderable;
 
 abstract class AbstractHandler implements HandlerInterface
 {

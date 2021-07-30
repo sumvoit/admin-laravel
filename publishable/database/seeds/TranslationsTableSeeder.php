@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\Category;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\MenuItem;
-use TCG\Voyager\Models\Page;
-use TCG\Voyager\Models\Translation;
+use Sumvo\LaravelAdmin\Models\Category;
+use Sumvo\LaravelAdmin\Models\DataType;
+use Sumvo\LaravelAdmin\Models\MenuItem;
+use Sumvo\LaravelAdmin\Models\Page;
+use Sumvo\LaravelAdmin\Models\Translation;
 
 class TranslationsTableSeeder extends Seeder
 {

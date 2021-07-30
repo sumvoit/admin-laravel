@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Contracts;
+namespace Sumvo\LaravelAdmin\Contracts;
 
 interface User
 {

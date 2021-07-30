@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 class Permission extends Model
 {

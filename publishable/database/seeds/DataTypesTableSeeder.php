@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\DataType;
+use Sumvo\LaravelAdmin\Models\DataType;
 
 class DataTypesTableSeeder extends Seeder
 {

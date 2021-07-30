@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Database\Platforms;
+namespace Sumvo\LaravelAdmin\Database\Platforms;
 
 use Illuminate\Support\Collection;
 

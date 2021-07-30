@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
-use TCG\Voyager\Models\Page;
+use Sumvo\LaravelAdmin\Models\Page;
 
 class PageTest extends TestCase
 {

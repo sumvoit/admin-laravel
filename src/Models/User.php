@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use TCG\Voyager\Contracts\User as UserContract;
-use TCG\Voyager\Traits\VoyagerUser;
+use Sumvo\LaravelAdmin\Contracts\User as UserContract;
+use Sumvo\LaravelAdmin\Traits\VoyagerUser;
 
 class User extends Authenticatable implements UserContract
 {

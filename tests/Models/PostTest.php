@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Models\Category;
-use TCG\Voyager\Models\Post;
+use Sumvo\LaravelAdmin\Models\Category;
+use Sumvo\LaravelAdmin\Models\Post;
 
 class PostTest extends TestCase
 {

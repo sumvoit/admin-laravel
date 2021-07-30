@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Tests\Feature;
+namespace Sumvo\LaravelAdmin\Tests\Feature;
 
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Tests\TestCase;
+use Sumvo\LaravelAdmin\Facades\Voyager;
+use Sumvo\LaravelAdmin\Tests\TestCase;
 
 class DashboardTest extends TestCase
 {

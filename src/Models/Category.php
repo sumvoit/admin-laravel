@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Traits\Translatable;
+use Sumvo\LaravelAdmin\Facades\Voyager;
+use Sumvo\LaravelAdmin\Traits\Translatable;
 
 class Category extends Model
 {

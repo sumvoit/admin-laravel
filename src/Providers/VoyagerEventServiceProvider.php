@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Providers;
+namespace Sumvo\LaravelAdmin\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Event;
-use TCG\Voyager\Events;
-use TCG\Voyager\Listeners;
+use Sumvo\LaravelAdmin\Events;
+use Sumvo\LaravelAdmin\Listeners;
 
 class VoyagerEventServiceProvider extends ServiceProvider
 {

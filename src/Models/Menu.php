@@ -1,12 +1,12 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
-use TCG\Voyager\Events\MenuDisplay;
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Events\MenuDisplay;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 /**
  * @todo: Refactor this class by using something like MenuBuilder Helper.

@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Mysql;
+namespace Sumvo\LaravelAdmin\Database\Types\Mysql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use TCG\Voyager\Database\Types\Type;
+use Sumvo\LaravelAdmin\Database\Types\Type;
 
 class PointType extends Type
 {

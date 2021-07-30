@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use TCG\Voyager\Models\Role;
+use Sumvo\LaravelAdmin\Models\Role;
 
 class RolesTest extends TestCase
 {

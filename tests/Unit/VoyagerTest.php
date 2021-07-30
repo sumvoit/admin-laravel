@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Tests\Unit;
+namespace Sumvo\LaravelAdmin\Tests\Unit;
 
 use Illuminate\Support\Facades\Config;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Tests\TestCase;
+use Sumvo\LaravelAdmin\Facades\Voyager;
+use Sumvo\LaravelAdmin\Tests\TestCase;
 
 class VoyagerTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers\ContentTypes;
+namespace Sumvo\LaravelAdmin\Http\Controllers\ContentTypes;
 
 class Password extends BaseType
 {

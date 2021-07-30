@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\Menu;
-use TCG\Voyager\Models\MenuItem;
+use Sumvo\LaravelAdmin\Models\Menu;
+use Sumvo\LaravelAdmin\Models\MenuItem;
 
 class MenuItemsTableSeeder extends Seeder
 {

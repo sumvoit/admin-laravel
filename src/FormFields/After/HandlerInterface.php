@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\FormFields\After;
+namespace Sumvo\LaravelAdmin\FormFields\After;
 
 interface HandlerInterface
 {

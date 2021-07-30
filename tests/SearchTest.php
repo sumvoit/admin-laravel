@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Models\Post;
+use Sumvo\LaravelAdmin\Models\Post;
 
 class SearchTest extends TestCase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Doctrine\DBAL\Schema\SchemaException;
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Database\Schema\SchemaManager;
-use TCG\Voyager\Database\Schema\Table;
-use TCG\Voyager\Database\Types\Type;
-use TCG\Voyager\Traits\AlertsMessages;
+use Sumvo\LaravelAdmin\Database\Schema\SchemaManager;
+use Sumvo\LaravelAdmin\Database\Schema\Table;
+use Sumvo\LaravelAdmin\Database\Types\Type;
+use Sumvo\LaravelAdmin\Traits\AlertsMessages;
 
 class DatabaseTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Actions;
+namespace Sumvo\LaravelAdmin\Actions;
 
 interface ActionInterface
 {

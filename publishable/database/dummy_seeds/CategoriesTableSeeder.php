@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\Category;
-use TCG\Voyager\Models\DataRow;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\Menu;
-use TCG\Voyager\Models\MenuItem;
-use TCG\Voyager\Models\Permission;
+use Sumvo\LaravelAdmin\Models\Category;
+use Sumvo\LaravelAdmin\Models\DataRow;
+use Sumvo\LaravelAdmin\Models\DataType;
+use Sumvo\LaravelAdmin\Models\Menu;
+use Sumvo\LaravelAdmin\Models\MenuItem;
+use Sumvo\LaravelAdmin\Models\Permission;
 
 class CategoriesTableSeeder extends Seeder
 {

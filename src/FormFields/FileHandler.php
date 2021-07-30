@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\FormFields;
+namespace Sumvo\LaravelAdmin\FormFields;
 
 class FileHandler extends AbstractHandler
 {

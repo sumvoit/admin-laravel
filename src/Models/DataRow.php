@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use TCG\Voyager\Traits\Translatable;
+use Sumvo\LaravelAdmin\Traits\Translatable;
 
 class DataRow extends Model
 {

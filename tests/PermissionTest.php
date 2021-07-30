@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Models\Permission;
-use TCG\Voyager\Models\Role;
+use Sumvo\LaravelAdmin\Models\Permission;
+use Sumvo\LaravelAdmin\Models\Role;
 
 class PermissionTest extends TestCase
 {

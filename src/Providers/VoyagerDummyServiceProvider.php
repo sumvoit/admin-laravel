@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Providers;
+namespace Sumvo\LaravelAdmin\Providers;
 
 use Arrilot\Widgets\ServiceProvider as WidgetServiceProvider;
 use Illuminate\Support\ServiceProvider;

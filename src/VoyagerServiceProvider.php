@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager;
+namespace Sumvo\Laravel-admin;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Database\Eloquent\Collection;
@@ -17,18 +17,18 @@ use Illuminate\Support\Str;
 use Intervention\Image\ImageServiceProvider;
 use Larapack\DoctrineSupport\DoctrineSupportServiceProvider;
 use Larapack\VoyagerHooks\VoyagerHooksServiceProvider;
-use TCG\Voyager\Events\FormFieldsRegistered;
-use TCG\Voyager\Facades\Voyager as VoyagerFacade;
-use TCG\Voyager\FormFields\After\DescriptionHandler;
-use TCG\Voyager\Http\Middleware\VoyagerAdminMiddleware;
-use TCG\Voyager\Models\MenuItem;
-use TCG\Voyager\Models\Setting;
-use TCG\Voyager\Policies\BasePolicy;
-use TCG\Voyager\Policies\MenuItemPolicy;
-use TCG\Voyager\Policies\SettingPolicy;
-use TCG\Voyager\Providers\VoyagerDummyServiceProvider;
-use TCG\Voyager\Providers\VoyagerEventServiceProvider;
-use TCG\Voyager\Translator\Collection as TranslatorCollection;
+use Sumvo\LaravelAdmin\Events\FormFieldsRegistered;
+use Sumvo\LaravelAdmin\Facades\Voyager as VoyagerFacade;
+use Sumvo\LaravelAdmin\FormFields\After\DescriptionHandler;
+use Sumvo\LaravelAdmin\Http\Middleware\VoyagerAdminMiddleware;
+use Sumvo\LaravelAdmin\Models\MenuItem;
+use Sumvo\LaravelAdmin\Models\Setting;
+use Sumvo\LaravelAdmin\Policies\BasePolicy;
+use Sumvo\LaravelAdmin\Policies\MenuItemPolicy;
+use Sumvo\LaravelAdmin\Policies\SettingPolicy;
+use Sumvo\LaravelAdmin\Providers\VoyagerDummyServiceProvider;
+use Sumvo\LaravelAdmin\Providers\VoyagerEventServiceProvider;
+use Sumvo\LaravelAdmin\Translator\Collection as TranslatorCollection;
 
 class VoyagerServiceProvider extends ServiceProvider
 {

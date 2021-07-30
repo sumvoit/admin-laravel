@@ -1,14 +1,14 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Schema;
-use TCG\Voyager\Models\Category;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\Permission;
+use Sumvo\LaravelAdmin\Models\Category;
+use Sumvo\LaravelAdmin\Models\DataType;
+use Sumvo\LaravelAdmin\Models\Permission;
 
 class FormfieldsTest extends TestCase
 {

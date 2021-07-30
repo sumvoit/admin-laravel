@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace Sumvo\LaravelAdmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use TCG\Voyager\Events\SettingUpdated;
+use Sumvo\LaravelAdmin\Events\SettingUpdated;
 
 class Setting extends Model
 {

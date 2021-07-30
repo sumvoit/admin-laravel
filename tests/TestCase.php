@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Orchestra\Testbench\BrowserKit\TestCase as OrchestraTestCase;
-use TCG\Voyager\Models\User;
-use TCG\Voyager\VoyagerServiceProvider;
+use Sumvo\LaravelAdmin\Models\User;
+use Sumvo\LaravelAdmin\VoyagerServiceProvider;
 
 class TestCase extends OrchestraTestCase
 {

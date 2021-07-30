@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Database\Platforms;
+namespace Sumvo\LaravelAdmin\Database\Platforms;
 
 use Illuminate\Support\Collection;
-use TCG\Voyager\Database\Types\Type;
+use Sumvo\LaravelAdmin\Database\Types\Type;
 
 abstract class Mysql extends Platform
 {

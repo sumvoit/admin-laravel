@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Postgresql;
+namespace Sumvo\LaravelAdmin\Database\Types\Postgresql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use TCG\Voyager\Database\Types\Type;
+use Sumvo\LaravelAdmin\Database\Types\Type;
 
 class SmallIntType extends Type
 {

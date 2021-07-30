@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace Sumvo\LaravelAdmin\Tests;
 
-use TCG\Voyager\Alert;
-use TCG\Voyager\Facades\Voyager;
+use Sumvo\LaravelAdmin\Alert;
+use Sumvo\LaravelAdmin\Facades\Voyager;
 
 class AlertTest extends TestCase
 {

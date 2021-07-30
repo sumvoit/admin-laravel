@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Facades;
+namespace Sumvo\LaravelAdmin\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
