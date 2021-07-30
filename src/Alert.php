@@ -1,6 +1,6 @@
 <?php
 
-namespace Sumvo\Laravel-admin;
+namespace Sumvo\LaravelAdmin;
 
 use Sumvo\LaravelAdmin\Alert\Components\ComponentInterface;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sumvo\Laravel-admin;
+namespace Sumvo\LaravelAdmin;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Database\Eloquent\Collection;

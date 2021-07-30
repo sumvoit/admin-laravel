@@ -1,6 +1,6 @@
 <?php
 
-namespace Sumvo\Laravel-admin;
+namespace Sumvo\LaravelAdmin;
 
 use Arrilot\Widgets\Facade as Widget;
 use Illuminate\Database\Eloquent\Collection;
